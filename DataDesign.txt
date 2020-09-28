@@ -1,0 +1,59 @@
+FrontEnd Needs
+
+Manager
+Server
+Bartender
+Customers
+Tables
+Drinks
+Food
+Time
+Customer Payment (Will join to cost in BackEnd or possibly a sales DB)
+
+
+BackEnd Needs
+
+Chef
+Cooks
+Equipment
+Products
+Distibutors
+Cost
+Waste
+
+Breakdown of DB's
+
+- FrontEnd
+(Tables)
+- Employees
+	- ID
+	- Name
+	- D.O.B.
+	- SmartServer (Checkbox)
+	- Address
+	- Phone
+	- Email
+
+- Sales
+	- InvoiceNum
+	- Date/Time
+	- TableId
+	- ServerId
+	- ManagerId	
+	- InitialCost
+	- GST Tax
+	- HST Tax
+	- TipAmt (percentage, decimal(4,2))
+	- AmtTotal
+ 	- PaymentType
+
+- Alcohol
+	- AlcCode
+	- AlcName
+	- AlcCost
+
+- Products
+	- ProductCode
+	- ProductName
+	- ProductCost
+	
